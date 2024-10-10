@@ -1,0 +1,12 @@
+frutas=[["maça","banana"],["laranja","uva"]]
+def adicionar_fruta(cesta,fruta):
+    cesta.append(fruta)
+def remover_fruta(cesta,fruta):
+    for linha in cesta:
+        if fruta in linha:
+            linha.remove(fruta)
+            break
+        adicionar_fruta(frutas(0),"manga")
+           print(frutas)
+        remover_fruta(frutas"banana")
+           print(frutas)
